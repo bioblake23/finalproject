@@ -1,181 +1,215 @@
-# finalproject
 <!DOCTYPE html>
+
 <html>
 
 <head>
-    <title>Md abcul abc | Front-End Designer</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="favicon (6).ico">
-    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>IT 1000 Final Project</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="icon" href="favicon (6).ico">
+
+<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+
+rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+
+integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+<div class="topnav" id="myTopnav">
+
+<a href="#home" class="active">Home Page</a>
+
+<a href="#about">About Me</a>
+
+<a href="#education">My Education</a>
+
+<a href="#hobbies">Hobbies</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#projects">Coursework</a>
+
+<a href="certificates.html">Certifications</a>
+
+<a href="#contacts">Contact Me</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 
 
-    <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#hobbies">Hobbies</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="certificates.html">Certifications</a>
-        <a href="#contacts">Contacts</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+</a>
 
-    <section>
-        <section class="home" id="home">
-            <div class="inner">
-                <img src="profile.jpg">
-                <p>Md abcul abc</p>
-            </div>
-        </section>
-        <section class="about" id="about">
-            <div class="inner">
-                <h1>About</h1>
-                <p>
-                    I am freshly undergrad in Computer Science Engineering from Aliah University.
-                    Currently I am learning to design the Front-End part of the Website.
-                    I am working with HTML, CSS and JavaScript.<br>
-                    I am also interested to learn about Artificial Intelligence concept and want to understand how AI
-                    works in real life and make our life simpler.<br>
-                    In the certification page you will see many certificates but for your clarifications I want to say
-                    you that I have not done any course for the certificates.
-                    The thing is, I have done many courses because in every course I have attended, I get to learn many
-                    new things which I did not knew before, That's why I do a lot of course in the same field.<br>
-                </p>
-            </div>
-        </section>
-        <section class="education" id="education">
-            <div class="inner">
-                <h1>Education</h1>
-                <div>
-                    <img src="kvlogo.png">
-                    <h2>10<sup>th </sup>: Kendriya Vidyalaya</h2>
-                    <p>Board : CBSE</p>
-                    <p>YOP : 2013</p>
+</div>
 
-                </div>
-                <div>
-                    <img src="kvlogo.png">
-                    <h2>12<sup>th </sup>: Kendriya Vidyalaya</h2>
-                    <p>Board : CBSE</p>
-                    <p>YOP : 2015</p>
+<section>
 
-                </div>
-                <div>
-                    <img src="UniversityLogo.png">
-                    <h2>B.Tech : Aliah University</h2>
-                    <p>Computer Science Engineering</p>
-                    <p>2016 - 2020</p>
+<section class="home" id="home">
 
-                </div>
-            </div>
-        </section>
-        <section class="hobbies" id="hobbies">
-            <div class="inner">
-                <h1> Hobbies</h1>
-                <div>
-                    <img src="snakegame.png">
-                    <p>Building Games</p>
-                </div>
-                <div>
-                    <img src="webdesign.jpg">
-                    <p>Building Websites</p>
-                </div>
-                <div>
-                    <img src="coder.jpg">
-                    <p>Playing with codes</p>
-                </div>
-            </div>
-        </section>
-        <section class="skills" id="skills">
-            <div class="inner">
-                <h1>Skillls</h1>
-                <div>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>Wordpress</li>
-                        <li>Python</li>
-                        <li>Machine Learning</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>Photoshop</li>
-                        <li>Office Word</li>
-                        <li>Web App</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="projects" class="projects">
-            <div class="inner">
-                <h1>These are some of my projects</h1>
-                <div>
-                    <img src="numbergame1.png">
-                    <a href="https://abc.github.io/GuessTheNumberGame/" target="_blank"
-                        class="project project-tile">
-                        <p>Guess The Number - Game</p>
-                    </a>
-                </div>
-                <div>
-                    <img src="weather.png">
-                    <a href="https://abc.github.io/weatherappproject/" target="_blank">
-                        <p>Weather App</p>
-                    </a>
-                </div>
-                <div>
-                    <img src="calculator.png">
-                    <a href="https://abc.github.io/JavaScriptCalculator/" target="_blank">
-                        <p>JavaScript Calculator</p>
-                    </a>
-                </div>
-                <a href="https://github.com/abc" class="btn-show-all" target="_blank">Show all</a>
-            </div>
-        </section>
-        <section class="contacts" id="contacts">
-            <div class="inner">
-                <h1>Contact Me</h1>
-                <div class="contact-links">
-                    <a href="https://xyz/abcul.abc.5/" target="_blank" class="btn contact-details"><i
-                            class="fab fa-facebook-square"></i> Facebook</a>
-                    <a id="profile-link" href="https://github.com/xyz" target="_blank"
-                        class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://www.linkedin.com/in/md-abcul-abc-b42200127/" target="_blank"
-                        class="btn contact-details"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-                    <a href="mailto:abc@gm.com" class="btn contact-details"><i class="fas fa-at"></i> Send
-                        a mail</a>
-                    <a href="https://api.wp.com/send?phone=919876543210&amp;text=Hi there! I have a question :)"
-                        class="btn contact-details"><i class="fab fa-wp"></i> wp</a>
-                    <a href="tel:9876543210" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
-                </div>
-            </div>
-        </section>
-    </section>
-    <footer class="footer">
-        <p>
-            <marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="alternate">This page is created by
-                <span>Md abcul abc</span><sup>©</sup>.</marquee>
-        </p>
+<div class="inner">
+
+<p>IT 1000</p>
+
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<div class="inner">
+
+<h1>About Me</h1>
+
+<p>
+
+I am an undergraduate at the University of Missouri
+
+I study Biology and Psychology.
+
+I also work at the MU Career Center as a Career Specialist and supervisor and for Cytive Lyfe Sciences as a Undergradute Campus Representative.<br>
+<figure>
+	<blockquote>
+		<p><img src="smiley.gif" alt="Smiley face" width="42" height="42" style="border:5px solid black"></p>
+	</blockquote>
+</figure>
+
+</p>
+
+</div>
+
+</section>
+
+<section class="education" id="education">
+
+<div class="inner">
+
+<h1>Education</h1>
+<p>
+
+I attended Bowling Green High School.
+</p>
+<div>
+
+
+</section>
+
+<section class="hobbies" id="hobbies">
+
+<div class="inner">
+
+<h1> Hobbies</h1>
+
+<div>
+
+<p>I like playing with my dog, running, spending time with friends and traveling.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="skills" id="skills">
+
+<div class="inner">
+
+<h1>Skillls</h1>
+
+<div>
+
+<ul>
+
+<li>Communication</li>
+
+<li>Organization</li>
+
+<li>Self-Motivated</li>
+
+</ul>
+
+</div>
+
+
+</div>
+
+</section>
+
+<section id="projects" class="projects">
+
+<div class="inner">
+
+<h1>Coursework- Here is a coding sample and a link to learn about coding</h1>
+
+<div>
+
+<code>&lt;blockquote&gt;
+&lt;p&gt;&lt;img src="smiley.gif" alt="Smiley face" width="42" height="42" style="border:5px solid black"&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</code>
+
+</div>
+
+<div>
+
+
+<a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank">
+
+<p>Link to Source</p>
+
+</a>
+
+</div>
+
+<div>
+
+
+</section>
+
+<section class="contacts" id="contacts">
+
+<div class="inner">
+
+<h1>Contact Me</h1>
+
+<div class="contact-links">
+
+<a href="https://www.linkedin.com/in/blake-meyer-577315162/" target="_blank"
+
+class="btn contact-details"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+
+<a href="bemk9h@mail.missouri.edu" class="btn contact-details"><i class="fas fa-at"></i> Send an email</a>
+
+
+</div>
+
+</div>
+
+</section>
+
+</section>
+
+<footer class="footer">
+
+<p>
+
+<marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="alternate">This page is created by
+
+<span>Blake Meyer</span><sup> ©</sup>.</marquee>
+
+</p>
     </footer>
     <script>
         function myFunction() {
