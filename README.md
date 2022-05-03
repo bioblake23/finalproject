@@ -4,7 +4,7 @@
 
 <head>
 
-<title>IT 1000 Final Project</title>
+
 
 <meta charset="utf-8">
 
@@ -18,8 +18,6 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
 
-rel="stylesheet">
-
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,11 +27,12 @@ rel="stylesheet">
 <body>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-
-integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
 <div class="topnav" id="myTopnav">
 
+<p>
+<i> IT 1000 Final Project </i>
+<p>
+	
 <a href="#home" class="active">Home Page</a>
 
 <a href="#about">About Me</a>
@@ -62,7 +61,8 @@ integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7
 
 <div class="inner">
 
-<p>IT 1000</p>
+<p>
+	</p>
 
 </div>
 
@@ -81,11 +81,6 @@ I am an undergraduate at the University of Missouri
 I study Biology and Psychology.
 
 I also work at the MU Career Center as a Career Specialist and supervisor and for Cytive Lyfe Sciences as a Undergradute Campus Representative.<br>
-<figure>
-	<blockquote>
-		<p><img src="smiley.gif" alt="Smiley face" width="42" height="42" style="border:5px solid black"></p>
-	</blockquote>
-</figure>
 
 </p>
 
@@ -186,11 +181,9 @@ I attended Bowling Green High School.
 
 <div class="contact-links">
 
-<a href="https://www.linkedin.com/in/blake-meyer-577315162/" target="_blank"
+<a href="https://www.linkedin.com/in/blake-meyer-577315162/" target="_blank" ><i class="btn contact-details"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
 
-class="btn contact-details"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-
-<a href="bemk9h@mail.missouri.edu" class="btn contact-details"><i class="fas fa-at"></i> Send an email</a>
+<a href="mailto:bemk9h@mail.missouri.edu" class="btn contact-details"><i class="fas fa-at"></i> Send an email</a>
 
 
 </div>
@@ -207,7 +200,7 @@ class="btn contact-details"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
 
 <marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="alternate">This page is created by
 
-<span>Blake Meyer</span><sup> ©</sup>.</marquee>
+<span>Blake Meyer</span><sup>
 
 </p>
     </footer>
